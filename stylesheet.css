@@ -1,4 +1,25 @@
 body {
   font-family: sans-serif;
   font-size: 16pt;
+  color: rgb(87, 86, 86);
+  spacing
+}
+a:link {
+  text-decoration: none;
+  color: rgb(87, 86, 86);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(87, 86, 86);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+a:active {
+  text-decoration: underline;
+  color: blue;
 }
