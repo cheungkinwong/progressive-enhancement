@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Open Sans, sans-serif;
   font-size: 14pt;
   color: rgb(87, 86, 86);
   letter-spacing: 1px;
@@ -53,4 +53,38 @@ q {
   border-left-width: 3px;
   border-left-color: red;
   border-left-style: solid;
+}
+
+header > h1 {
+  background: yellow;
+}
+.good {
+  text-transform: capitalize;
+  color: green;
+}
+.bad {
+  text-transform: capitalize;
+  color: red;
+}
+table {
+  background: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: gray;
+  color: white;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 3pt;
+}
+img {
+  float: left;
+  width: 600px;
+  height: auto;
+  padding: 20pt;
 }
